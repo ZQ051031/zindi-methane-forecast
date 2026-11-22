@@ -1,0 +1,14 @@
+data_dir: data
+output_dir: outputs
+stations_file: stations.csv
+measurements_file: measurements.csv
+weather_file: weather.csv
+horizons: [1, 2, 3, 4, 5]
+id_format: "{station_id}_{date}"
+date_format: "%Y-%m-%d"
+seed: 42
+# Source column name -> canonical name, separately for each table.
+columns:
+  stations: {}
+  measurements: {}
+  weather: {}
